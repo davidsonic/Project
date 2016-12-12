@@ -20,10 +20,9 @@ html, body {
   background-color: #299DB6;
 }
 #headerblob {
-  position: absolute;
-  left: 15%;
-  top: 165px;
-  width: 80%;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
 
 }
 #headertext {
