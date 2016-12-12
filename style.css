@@ -21,7 +21,7 @@ html, body {
 }
 #headerblob {
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 165px;
   width: 80%;
 
@@ -29,12 +29,22 @@ html, body {
 #headertext {
   font-size: 26px;
   font-weight: 400;
-  color: white;
 }
 .imgme {
   border: 3px solid white;
   /* box-shadow: #AAA 0px 0px 4px 0px; */
   float: left;
+}
+#headername {
+  font-size: 46px;
+  font-weight: 400;
+  color:white;
+}
+#headerdesc {
+  font-size: 18px;
+  font-weight: 380;
+  margin-top: -6px;
+  color:white;
 }
 #htname {
   font-size: 46px;
