@@ -106,6 +106,45 @@
 
      </div> 
   </div> 
+
+
+  <div>
+     <div class="row">
+
+       <div class="col-md-4"> 
+           <div class="pp">
+              <a href="http://159.226.21.92/labelling/">
+                <img src="images/labelling.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Online Face Labelling</div>
+           <div class="ppd">To collect enough training samples for facial attributes analysis, we develop an online face labelling system using django+uwsgi+nginx. The initial pictures for annotation already contain bounding boxes and facial landmarks. These metadata were obtained through requesting our crawled pictures to LinkFace API, a well known deep learning company. After that, people only have to semi-annotate the pictures for multi-task facial attributes recognition. </div>
+       </div>
+
+       <div class="col-md-4"> 
+           <div class="pp">
+              <a href="http://159.226.21.92/caffe_app/age">
+                <img src="images/age.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Age Classification</div>
+           <div class="ppd">Same person with different appearnces would engender different age predictions. Sounds strange? This is exactly what's challenging researchers of this area. Generally, we want the classifier to be robust to pose-variations, illuminance variance and even makeups. CNN is exciting in that it learns the most features for itself without human interference!</div>
+       </div>
+
+       <div class="col-md-4"> 
+           <div class="pp">
+              <a href="">
+                <img src="images/spider.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Scrapy the imdb</div>
+           <div class="ppd">To get sufficient data for CNN training, I have made an attempt to scrap the imdb using Scrapy. I've never used Regular Expression so frequently before! The reference image of person is first acquired and then his/her associated pics. One tricky part is to use Selenium to simulate JS for generating requests.</div>
+       </div>
+
+     </div> 
+  </div> 
+
+
  
 </div> 
 
