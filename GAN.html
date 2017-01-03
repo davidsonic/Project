@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Duanjiali.GitHub.io : Two Stage GAN Page">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/github-light.css' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/sytlesheet.css' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title>Two Stage GAN</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+<div id="header" class="bg1">
+  <div id="topnav">
+    <ul>
+      <li><a href="https://davidsonic.github.io/Project/">Project</a></li>
+    </ul>
+  </div>
+  <div id="headerblob">
+    <div id="headertext">
+      <div id="headername">Two Stage GAN</div>
+      <div id="htdesc">Jiali Duan (Supervised by <a href="http://www.cbsr.ia.ac.cn/users/szli/">Stan Z.Li</a>)</div>
+      <div id="htdesc">Master Student, University of Chinese Academy of Sciences</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+   <div class="row">
+       <div class="col-md-6"> 
+           <div class="pp">
+                <img src="images/GAN9.png" style="max-width:100%">
+           </div>
+       </div>
+
+       <div class="col-md-6"> 
+           <div class="pp">
+                <img src="images/GAN10.png" style="max-width:100%">
+           </div>
+       </div>
+
+    </div>
+
+
+    <div class="row">
+          <div class="col-md-12"> 
+             <div class="pp">
+                  <img src="images/GAN1.png" style="max-width:100%">
+             </div>
+          </div>
+    </div>
+
+
+    <div class="row">
+          <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/GAN3.png" style="max-width:100%">
+           </div>
+       </div> 
+
+    </div>
+
+    <div class="row">
+          <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/GAN4.png" style="max-width:100%">
+           </div>
+       </div> 
+
+    </div>
+
+    <div class="row">
+          <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/GAN5.png" style="max-width:100%">
+           </div>
+       </div> 
+
+    </div>
+
+    <div class="row">
+          <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/GAN6.png" style="max-width:100%">
+           </div>
+       </div> 
+
+    </div>
+
+    <div class="row">
+          <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/GAN7.png" style="max-width:100%">
+           </div>
+       </div> 
+
+    </div>
+
+    <div class="row">
+          <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/GAN8.png" style="max-width:100%">
+           </div>
+       </div> 
+
+    </div>
+
+    
+</div> 
+
+  <!--place js at the end-->
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+
+  //
+  var more_projects_shown = false;
+$(document).ready(function() {
+  $("#showmoreprojects").click(function() {
+    if(!more_projects_shown) {
+      $("#moreprojects").slideDown('fast', function() {
+        $("#showmoreprojects").text('hide');
+      });
+      more_projects_shown = true;
+    } else {
+      $("#moreprojects").slideUp('fast', function() {
+        $("#showmoreprojects").text('show more');
+      });
+      more_projects_shown = false;
+    }
+  });
+
+  var more_pubs_shown = false;
+  $("#showmorepubs").click(function() {
+    if(!more_pubs_shown) {
+      $("#morepubs").slideDown('fast', function() {
+        $("#showmorepubs").text('hide');
+      });
+      more_pubs_shown = true;
+    } else {
+      $("#morepubs").slideUp('fast', function() {
+        $("#showmorepubs").text('show more');
+      });
+      more_pubs_shown = false;
+    }
+  });
+
+});
+
+  //
+  </script>
+  </body>
+</html>
