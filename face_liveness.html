@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Duanjiali.GitHub.io : Face Detection Page">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/github-light.css' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/sytlesheet.css' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title>Face Detection</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+<div id="header" class="bg1">
+  <div id="topnav">
+    <ul>
+      <li><a href="https://davidsonic.github.io/Project/">Project</a></li>
+    </ul>
+  </div>
+  <div id="headerblob">
+    <div id="headertext">
+      <div id="headername">Antispoofing Project Experience</div>
+      <div id="htdesc">Jiali Duan (Supervised by <a href="http://www.cbsr.ia.ac.cn/users/szli/">Stan Z.Li</a>)</div>
+      <div id="htdesc">Master Student, University of Chinese Academy of Sciences</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+   <div class="row">
+       <div class="col-md-6"> 
+           <div class="pp">
+                <img src="images/android1.png" class="imgb">
+           </div>
+       </div>
+
+       <div class="col-md-6"> 
+           <div class="pp">
+                <img src="images/android2.png" class="imgb">
+           </div>
+       </div>
+
+    </div>
+
+    <div class="row">
+       <div class="col-md-6"> 
+           <div class="pp">
+                <img src="images/android3.png" class="imgb">
+           </div>
+       </div>
+
+       <div class="col-md-6"> 
+           <div class="pp">
+                <img src="images/android-face-liveness.png" class="imgb">
+           </div>
+       </div>
+
+    </div>
+
+    <div class="row">
+       <div class="col-md-6"> 
+           <div class="pp">
+                <img src="images/face-liveness.png" class="imgb">
+           </div>
+       </div>
+
+       <div class="col-md-6"> 
+           <div class="pp">
+                <img src="images/test_images/3.png" class="imgb">
+           </div>
+       </div>
+
+    </div>
+
+    
+</div> 
+
+  <!--place js at the end-->
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+
+  //
+  var more_projects_shown = false;
+$(document).ready(function() {
+  $("#showmoreprojects").click(function() {
+    if(!more_projects_shown) {
+      $("#moreprojects").slideDown('fast', function() {
+        $("#showmoreprojects").text('hide');
+      });
+      more_projects_shown = true;
+    } else {
+      $("#moreprojects").slideUp('fast', function() {
+        $("#showmoreprojects").text('show more');
+      });
+      more_projects_shown = false;
+    }
+  });
+
+  var more_pubs_shown = false;
+  $("#showmorepubs").click(function() {
+    if(!more_pubs_shown) {
+      $("#morepubs").slideDown('fast', function() {
+        $("#showmorepubs").text('hide');
+      });
+      more_pubs_shown = true;
+    } else {
+      $("#morepubs").slideUp('fast', function() {
+        $("#showmorepubs").text('show more');
+      });
+      more_pubs_shown = false;
+    }
+  });
+
+});
+
+  //
+  </script>
+  </body>
+</html>
