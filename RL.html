@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Duanjiali.GitHub.io : Face Detection Page">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/github-light.css' rel='stylesheet' type='text/css'>
+    <link href='stylesheets/sytlesheet.css' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <title>Reinforcement Learning</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+<div id="header" class="bg1">
+  <div id="topnav">
+    <ul>
+      <li><a href="https://davidsonic.github.io/Project/">Project</a></li>
+    </ul>
+  </div>
+  <div id="headerblob">
+    <div id="headertext">
+      <div id="headername">Reinforcement Learning</div>
+      <div id="htdesc">Jiali Duan (Supervised by <a href="http://www.cbsr.ia.ac.cn/users/szli/">Stan Z.Li</a>)</div>
+      <div id="htdesc">Master Student, University of Chinese Academy of Sciences</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+   <h4 style="text-align:center"> The overall algorithm pipeline is as follows: </h4>>
+
+   <div class="row">
+       <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/deep-q-learn.JPG" style="max-width:100%">
+           </div>
+       </div>
+   </div>
+
+   <h4 style="text-align:center"> Let's implement it step by step, first imporot some python directories </h4>
+   <div class="row">
+
+       <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/code1.png" style="max-width:100%">
+           </div>
+       </div>
+   </div>
+
+
+   <div class="row">
+   <h4 style="text-align:center"> The following is the main function</h4>>
+       <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/code2.png" style="max-width:100%"> <br/>
+                <img src="images/code3.png" style="max-width:100%">
+           </div>
+       </div>
+   </div>
+
+   <div class="row">
+   <h4 style="text-align:center"> Deep Q network pipeline is as follows:</h4>>
+       <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/deep-Q.png" style="max-width:100%"> 
+           </div>
+       </div>
+   </div>
+
+   <div class="row">
+   <h4 style="text-align:center"> Class of Deep Q network</h4>>
+       <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/deepQcode.png" style="max-width:100%"> <br/>
+                <img src="images/deepQcode2.png" style="max-width:100%"> <br/>
+                <img src="images/deepQcode3.png" style="max-width:100%"> 
+           </div>
+       </div>
+   </div>
+
+
+   <div class="row">
+   <h4 style="text-align:center"> Action functions of Deep Q network</h4>>
+       <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/deepQcode4.png" style="max-width:100%"> <br/>
+                <img src="images/deepQcode5.png" style="max-width:100%"> <br/>
+                <img src="images/deepQcode6.png" style="max-width:100%"> <br/>
+                <img src="images/deepQcode7.png" style="max-width:100%"> <br/>
+                <img src="images/deepQcode8.png" style="max-width:100%"> <br/>
+                <img src="images/deepQcode9.png" style="max-width:100%"> <br/>
+           </div>
+       </div>
+   </div>
+
+   <div class="row">
+   <h4 style="text-align:center"> How to learn?</h4>>
+       <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/deepQcode10.png" style="max-width:100%"> <br/>
+                <img src="images/deepQcode11.png" style="max-width:100%"> <br/>
+                <img src="images/deepQcode12.png" style="max-width:100%"> <br/>
+           </div>
+       </div>
+   </div>
+
+
+<div class="row">
+   <h4 style="text-align:center"> Loss curve</h4>>
+       <div class="col-md-12"> 
+           <div class="pp">
+                <img src="images/deepQcode13.png" style="max-width:100%"> <br/><br/>
+                
+                <img src="images/deepQlearn.png" style="max-width:70%"> <br/>
+           </div>
+       </div>
+   </div>
+
+
+   <div class="row">
+   <h4 style="text-align:center"> Use OpenAI gym to visualize</h4>>
+       <div class="col-md-12"> 
+           <div class="pp">
+                <video width=500 controls="" loop="" autoplay="" muted="">
+                 <source src="images/cartpole policy gradient softmax.mp4" type="video/mp4">
+                </video>
+           </div>
+       </div>
+   </div>
+
+    
+</div>
+      
+
+
+
+
+  <!--place js at the end-->
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+
+  //
+  var more_projects_shown = false;
+$(document).ready(function() {
+  $("#showmoreprojects").click(function() {
+    if(!more_projects_shown) {
+      $("#moreprojects").slideDown('fast', function() {
+        $("#showmoreprojects").text('hide');
+      });
+      more_projects_shown = true;
+    } else {
+      $("#moreprojects").slideUp('fast', function() {
+        $("#showmoreprojects").text('show more');
+      });
+      more_projects_shown = false;
+    }
+  });
+
+  var more_pubs_shown = false;
+  $("#showmorepubs").click(function() {
+    if(!more_pubs_shown) {
+      $("#morepubs").slideDown('fast', function() {
+        $("#showmorepubs").text('hide');
+      });
+      more_pubs_shown = true;
+    } else {
+      $("#morepubs").slideUp('fast', function() {
+        $("#showmorepubs").text('show more');
+      });
+      more_pubs_shown = false;
+    }
+  });
+
+});
+
+  //
+  </script>
+  </body>
+</html>
