@@ -11,7 +11,7 @@
     <link href='stylesheets/github-light.css' rel='stylesheet' type='text/css'>
     <link href='stylesheets/sytlesheet.css' rel='stylesheet' type='text/css'>
     <script src="js/jquery-1.11.1.min.js"></script>
-    <title>Pet Projects</title>
+    <title>Pet Projects before 2017</title>
   </head>
 
   <body>
@@ -20,15 +20,15 @@
 <div id="header" class="bg1">
   <div id="topnav">
     <ul>
-      <li><a href="https://davidsonic.github.io/index/">Academic</a></li>
+      <li><a href="https://davidsonic.github.io/misc/">Misc</a></li>
     </ul>
   </div>
   <div id="headerblob">
     <div id="headertext">
-      <div id="headername">PET PROJECTS</div>
-      <div id="htdesc">Jiali Duan (Supervised by <a href="http://www.cbsr.ia.ac.cn/users/szli/">Stan Z.Li</a>)</div>
+      <div id="headername">PET PROJECTS PRIOR 2017</div>
+      <div id="htdesc">Jiali Duan (Supervised by <a href="http://www.cbsr.ia.ac.cn/users/szli/">Stan Z.Li</a>, cosupervised by <a href="http://www.cbsr.ia.ac.cn/users/scliao/">Shengcai Liao</a> and <a href="http://www.cbsr.ia.ac.cn/users/jwan/">Jun Wan</a>)</div>
       <div id="htdesc">Master Student, University of Chinese Academy of Sciences</div>
-      <div id="htem">jli.duan@gmail.com (Looking for PhD position of 2017 fall)</div>
+      <div id="htem">jli.duan@gmail.com (Currently a PhD student at USC)</div>
     </div>
   </div>
 </div>
@@ -36,16 +36,7 @@
 <div class="container">
 
    <div class="row">
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="http://159.226.21.92:5901">
-                <img src="images/django-blog.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Django+mod_wsgi+apache</div>
-           <div class="ppd">Django is a flexible and powerful tool for building 
-           personal web-site in that it has very good extensibility and is easy to adminster the server and the database. Mod_wsgi and apache2 have been used to deploy the website, feel free to <a href="http://159.226.21.92:5901"> login </a>and comment!</div>
-       </div>
+
 
        <div class="col-md-4"> 
            <div class="pp">
@@ -57,64 +48,9 @@
            <div class="ppd">Multi-task proves to be an effective way for enhancing the performance of Convolutional Neural Network. This time, it is used to predict the age, gender and nationality. Experiment shows that multi-task prediciton achieves higher accuracy compared to single task alone. Single task has also been posted to predict age, gender respectively. You can upload you image to take a try. Have fun!</div>
        </div>
 
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="http://159.226.21.92/caffe_app/smile/">
-                <img src="images/smile.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Smiling Prediction</div>
-           <div class="ppd">Smiling prediction can be reformulated as a prediction task. Given an facial-image of a person, a CNN network will automatically learns to predict to what extent that person is smiling. The website is deployed on the server using flask+tornado+nginx. Try it yourself and see if it's accurate!</div>
-       </div>
-
-  </div>  
-  <br><br>
 
 
-     <div class="row">
-
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="http://159.226.21.92/caffe_app/gender">
-                <img src="images/gender.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Gender Classification</div>
-           <div class="ppd">It turns out that computer often gets confused about the sextuality of a person. Illumination changes is one thing that has to be taken good care of.</div>
-       </div>
-
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="http://159.226.21.92/caffe_app/age">
-                <img src="images/age.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Age Classification</div>
-           <div class="ppd">Same person with different appearnces would engender different age predictions. Sounds strange? This is exactly what's challenging researchers of this area. Generally, we want the classifier to be robust to pose-variations, illuminance variance and even makeups. CNN is exciting in that it learns the most features for itself without human interference!</div>
-       </div>
-
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="">
-                <img src="images/spider.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Scrapy the imdb</div>
-           <div class="ppd">To get sufficient data for CNN training, I have made an attempt to scrap the imdb using Scrapy. I've never used Regular Expression so frequently before! The reference image of person is first acquired and then his/her associated pics. One tricky part is to use Selenium to simulate JS for generating requests.</div>
-       </div>
-
-     </div> 
-
-
-     <div class="showmore" id="showmorepubs">
-       show more
-       </div>
-
-    <div id="morepubs">
-
-     <div class="row">
-
-       <div class="col-md-4"> 
+       <div class="col-md-4">
            <div class="pp">
               <a href="http://159.226.21.92/labelling/">
                 <img src="images/labelling.png" class="imgb">
@@ -124,77 +60,8 @@
            <div class="ppd">To collect enough training samples for facial attributes analysis, we develop an online face labelling system using django+uwsgi+nginx. The initial pictures for annotation already contain bounding boxes and facial landmarks. These metadata were obtained through requesting our crawled pictures to LinkFace API, a well known deep learning company. After that, people only have to semi-annotate the pictures for multi-task facial attributes recognition. </div>
        </div>
 
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="http://159.226.21.92/video_recog">
-                <img src="images/video_recognition.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Video Recognition</div>
-           <div class="ppd">The academic and industrial community has seen a wide range of applications of CNN in image tasks, here we try CNN on the task of video recognition. Here we use the two-stream Convolultional network to capture the spatial stream and temporal stream respectively.</div>
-       </div>
 
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="https://davidsonic.github.io/Project/face_detect.html">
-                <img src="images/face-detection.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Ultimate Face Detector</div>
-           <div class="ppd">Previous face detectors are not as robust as we want them to be in terms of large pose-variations, occlusions, illumination changes and small faces. Therefore, I've trained a powerful a face detector that can handle the above issues with near real time efficiency. The detector achieves over 95% mAP on FDDB and is yet to be incorporated in a commercial application framework.</div>
-       </div>
-
-     </div> 
-
-
-     <div class="row">
-
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="http://159.226.21.92/caffe_app/porn/">
-                <img src="images/porn.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Porn/Non-porn Classification</div>
-           <div class="ppd">Thanks to the representation ability of CNN, the accuracy of image classification task is greatly enhanced. This demo is a simulation of Yahoo porn/non-porn classification engine.</div>
-       </div>
-
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="https://davidsonic.github.io/Project/face_liveness.html">
-                <img src="images/face-antispoofing.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Face Antispoofing</div>
-           <div class="ppd">Face liveness detection alias antispoofing is an important application of deep learning for online registration, especially to banks, stock company etc. It mainly consists of face detection and facial landmark detection module, followed by face recognition. This is an android implementation of face-antispoofing function.</div>
-       </div>
-
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="">
-                <img src="images/style-transfer.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Style Transfer</div>
-           <div class="ppd">The paper "A Neural Algorithm of Artistic Style" has aroused great interests among young researchers and young girls alike! Recently, I have seen that a lot of applications had updated their apps with this new fucntion. So I also implemented one myself for fun!</div>
-       </div>
-
-     </div> <!--row-->
-
-
-      <div class="row">
-
-       <div class="col-md-4"> 
-           <div class="pp">
-              <a href="http://159.226.21.92/caffe_app/face_detector/">
-                <img src="images/face_cascade.png" class="imgb">
-              </a>
-           </div>
-           <div class="ppt">Cascaded Face Detector</div>
-           <div class="ppd">"A Convolutional Neural Network Cascade for Face Detection" is the first CVPR paper that employs cascaded CNN for face detection, which receives a wide range of attention from the acadmic community. The code is never published, therefore I reimplemented the 12-net, 24-net and 48-net for detection and calibration respectively following the paradigm of hard-negative mining.</div>
-       </div>
-
-       <div class="col-md-4"> 
+       <div class="col-md-4">
            <div class="pp">
               <a href="http://159.226.21.92/caffe_app/similarity/">
                 <img src="images/face-verification.png" class="imgb">
@@ -207,7 +74,119 @@
        </div>
 
 
-       <div class="col-md-4"> 
+
+
+  </div>  
+  <br><br>
+
+
+     <div class="row">
+
+         <div class="col-md-4">
+           <div class="pp">
+              <a href="http://159.226.21.92/caffe_app/smile/">
+                <img src="images/smile.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Smiling Prediction</div>
+           <div class="ppd">Smiling prediction can be reformulated as a prediction task. Given an facial-image of a person, a CNN network will automatically learns to predict to what extent that person is smiling. The website is deployed on the server using flask+tornado+nginx. Try it yourself and see if it's accurate!</div>
+       </div>
+
+       <div class="col-md-4">
+           <div class="pp">
+              <a href="http://159.226.21.92/caffe_app/gender">
+                <img src="images/gender.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Gender Classification</div>
+           <div class="ppd">It turns out that computer often gets confused about the sextuality of a person. Illumination changes is one thing that has to be taken good care of.</div>
+       </div>
+
+       <div class="col-md-4">
+           <div class="pp">
+              <a href="http://159.226.21.92/caffe_app/age">
+                <img src="images/age.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Age Classification</div>
+           <div class="ppd">Same person with different appearnces would engender different age predictions. Sounds strange? This is exactly what's challenging researchers of this area. Generally, we want the classifier to be robust to pose-variations, illuminance variance and even makeups. CNN is exciting in that it learns the most features for itself without human interference!</div>
+       </div>
+
+
+
+     </div> 
+
+
+     <div class="showmore" id="showmorepubs">
+       show more
+       </div>
+
+    <div id="morepubs">
+
+     <div class="row">
+
+         <div class="col-md-4">
+           <div class="pp">
+              <a href="https://davidsonic.github.io/Project/face_liveness.html">
+                <img src="images/face-antispoofing.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Face Antispoofing</div>
+           <div class="ppd">Face liveness detection alias antispoofing is an important application of deep learning for online registration, especially to banks, stock company etc. It mainly consists of face detection and facial landmark detection module, followed by face recognition. This is an android implementation of face-antispoofing function.</div>
+       </div>
+
+       <div class="col-md-4">
+           <div class="pp">
+              <a href="https://github.com/davidsonic/scrapy_imdb">
+                <img src="images/spider.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Scrapy the imdb</div>
+           <div class="ppd">To get sufficient data for CNN training, I have made an attempt to scrap the imdb using Scrapy. I've never used Regular Expression so frequently before! The reference image of person is first acquired and then his/her associated pics. One tricky part is to use Selenium to simulate JS for generating requests.</div>
+       </div>
+
+         <div class="col-md-4">
+           <div class="pp">
+              <a href="http://159.226.21.92/caffe_app/porn/">
+                <img src="images/porn.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Porn/Non-porn Classification</div>
+           <div class="ppd">Thanks to the representation ability of CNN, the accuracy of image classification task is greatly enhanced. This demo is a simulation of Yahoo porn/non-porn classification engine.</div>
+       </div>
+
+
+
+     </div> 
+
+
+
+      <div class="row">
+
+          <div class="col-md-4">
+           <div class="pp">
+              <a href="https://davidsonic.github.io/Project/face_detect.html">
+                <img src="images/face-detection.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Ultimate Face Detector</div>
+           <div class="ppd">Previous face detectors are not as robust as we want them to be in terms of large pose-variations, occlusions, illumination changes and small faces. Therefore, I've trained a powerful a face detector that can handle the above issues with near real time efficiency. The detector achieves over 95% mAP on FDDB and is yet to be incorporated in a commercial application framework.</div>
+       </div>
+
+
+       <div class="col-md-4">
+           <div class="pp">
+              <a href="https://davidsonic.github.io/Project/RL.html">
+                <img src="images/RL-example.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Reinforcement Learning</div>
+           <div class="ppd">I only knew how to use A* and IDA* searching algorighms for solving the maze problem when I was participating ACM proramming competition. Now, thanks to the help of Reinforcement Learning, I could devise deep Q network to choose action based on the feedback of the environment. </div>
+     </div>
+
+
+
+       <div class="col-md-4">
            <div class="pp">
               <a href="https://davidsonic.github.io/Project/GAN.html">
                 <img src="images/GAN2.png" class="imgb">
@@ -217,23 +196,64 @@
            <div class="ppd">Although much progress has been made in Generative Adversarial Network, this one is considered to be another milestone in its latest development. It achieves the adverse function of Image Captioning--ie. given a text, output an image according to the description. The implementation of two-stage GAN involves the combination of Torch and Tensorflow, which is really exhilarating.</div>
        </div>
 
+
      </div> <!--row-->
 
 
      <div class="row">
 
-     <div class="col-md-4"> 
+         <div class="col-md-4">
            <div class="pp">
-              <a href="https://davidsonic.github.io/Project/RL.html">
-                <img src="images/RL-example.png" class="imgb">
+              <a href="http://159.226.21.92/caffe_app/face_detector/">
+                <img src="images/face_cascade.png" class="imgb">
               </a>
            </div>
-           <div class="ppt">Reinforcement Learning</div>
-           <div class="ppd">I only knew how to use A* and IDA* searching algorighms for solving the maze problem when I was participating ACM proramming competition. Now, thanks to the help of Reinforcement Learning, I could devise deep Q network to choose action based on the feedback of the environment. </div>
+           <div class="ppt">Cascaded Face Detector</div>
+           <div class="ppd">"A Convolutional Neural Network Cascade for Face Detection" is the first CVPR paper that employs cascaded CNN for face detection, which receives a wide range of attention from the acadmic community. The code is never published, therefore I reimplemented the 12-net, 24-net and 48-net for detection and calibration respectively following the paradigm of hard-negative mining.</div>
+       </div>
+
+
+         <div class="col-md-4">
+           <div class="pp">
+              <a href="">
+                <img src="images/style-transfer.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Style Transfer</div>
+           <div class="ppd">The paper "A Neural Algorithm of Artistic Style" has aroused great interests among young researchers and young girls alike! Recently, I have seen that a lot of applications had updated their apps with this new fucntion. So I also implemented one myself for fun!</div>
+       </div>
+
+
+         <div class="col-md-4">
+           <div class="pp">
+              <a href="">
+                <img src="images/django-blog.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Django+mod_wsgi+apache</div>
+           <div class="ppd">Django is a flexible and powerful tool for building
+           personal web-site in that it has very good extensibility and is easy to adminster the server and the database. Mod_wsgi and apache2 have been used to deploy the website, feel free to <a href="http://159.226.21.92:5901"> login </a>and comment!</div>
        </div>
 
 
      </div>
+
+
+        <div class="row">
+            <div class="col-md-4">
+           <div class="pp">
+              <a href="http://159.226.21.92/video_recog">
+                <img src="images/video_recognition.png" class="imgb">
+              </a>
+           </div>
+           <div class="ppt">Video Recognition</div>
+           <div class="ppd">The academic and industrial community has seen a wide range of applications of CNN in image tasks, here we try CNN on the task of video recognition. Here we use the two-stream Convolultional network to capture the spatial stream and temporal stream respectively.</div>
+       </div>
+            <!--row-->
+
+
+
+        </div>
 
 
     </div>  <!--morepubs-->
@@ -242,8 +262,7 @@
 <hr>
   <div id="misc">
     <div>Contact Information</div>
-    <div class="umisc">Here is the link of my resume, click <a href="">here </a>to view.</div>
-    <div class="umisc">Email: jli.duan@gmail.com</div>
+    <div class="umisc">Email: jialidua@usc.edu</div>
   </div>
 
   <!--place js at the end-->
